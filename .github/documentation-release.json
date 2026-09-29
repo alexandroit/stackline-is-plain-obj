@@ -1,0 +1,33 @@
+{
+  "repository": "alexandroit/stackline-is-plain-obj",
+  "packages": [
+    {
+      "name": "@stackline/is-plain-obj",
+      "path": "readme.md",
+      "version": "1.0.1",
+      "baselineVersion": "1.0.0",
+      "keywords": [
+        "stackline",
+        "npm-package",
+        "is-plain-obj",
+        "typescript",
+        "nodejs",
+        "object",
+        "is",
+        "check",
+        "test",
+        "type",
+        "plain",
+        "vanilla",
+        "pure",
+        "simple",
+        "maintenance-fork"
+      ],
+      "homepage": "https://alexandro.net/docs/vanilla/is-plain-obj/",
+      "baselineTarball": "https://registry.npmjs.org/@stackline/is-plain-obj/-/is-plain-obj-1.0.0.tgz",
+      "baselineIntegrity": "sha512-oToIow4Dk6W1tGrFoK9h8+OD3ctftvWs417SnN3Hfefxpjn2XUbHUy6z64fBsTivQvSIronydpJLeND6mzitMA==",
+      "expectedSha512": "a12d21c825261181a6e4027d269eeca80e3c9257e39e9c388649f6e3e3e44ad73687e0df9d736cfe9d42c6a1d88832574575d39d228819884da50604e4a56a27",
+      "tag": "docs-stackline-is-plain-obj-v1.0.1"
+    }
+  ]
+}
