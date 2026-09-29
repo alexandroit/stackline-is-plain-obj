@@ -1,6 +1,6 @@
 {
   "name": "@stackline/is-plain-obj",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check if a value is a plain object",
   "license": "MIT",
   "repository": {
@@ -34,6 +34,11 @@
     "readme.md"
   ],
   "keywords": [
+    "stackline",
+    "npm-package",
+    "is-plain-obj",
+    "typescript",
+    "nodejs",
     "object",
     "is",
     "check",
@@ -43,7 +48,6 @@
     "vanilla",
     "pure",
     "simple",
-    "stackline",
     "maintenance-fork"
   ],
   "devDependencies": {
@@ -53,7 +57,7 @@
   "bugs": {
     "url": "https://github.com/alexandroit/stackline-is-plain-obj/issues"
   },
-  "homepage": "https://github.com/alexandroit/stackline-is-plain-obj#readme",
+  "homepage": "https://alexandro.net/docs/vanilla/is-plain-obj/",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
