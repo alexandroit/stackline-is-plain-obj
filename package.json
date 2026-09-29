@@ -1,41 +1,61 @@
 {
-	"name": "is-plain-obj",
-	"version": "4.1.0",
-	"description": "Check if a value is a plain object",
-	"license": "MIT",
-	"repository": "sindresorhus/is-plain-obj",
-	"funding": "https://github.com/sponsors/sindresorhus",
-	"author": {
-		"name": "Sindre Sorhus",
-		"email": "sindresorhus@gmail.com",
-		"url": "https://sindresorhus.com"
-	},
-	"type": "module",
-	"exports": "./index.js",
-	"engines": {
-		"node": ">=12"
-	},
-	"scripts": {
-		"test": "xo && ava && tsd"
-	},
-	"files": [
-		"index.js",
-		"index.d.ts"
-	],
-	"keywords": [
-		"object",
-		"is",
-		"check",
-		"test",
-		"type",
-		"plain",
-		"vanilla",
-		"pure",
-		"simple"
-	],
-	"devDependencies": {
-		"ava": "^3.15.0",
-		"tsd": "^0.14.0",
-		"xo": "^0.38.2"
-	}
+  "name": "@stackline/is-plain-obj",
+  "version": "1.0.0",
+  "description": "Check if a value is a plain object",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandroit/stackline-is-plain-obj.git"
+  },
+  "funding": "https://github.com/sponsors/sindresorhus",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com"
+  },
+  "type": "module",
+  "exports": "./index.js",
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "test": "ava test.js && tsd && node test/stackline.mjs",
+    "test:package": "node scripts/test-package.mjs"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "LICENSE*",
+    "license*",
+    "NOTICE",
+    "UPSTREAM.md",
+    "CHANGELOG.md",
+    "README.md",
+    "readme.md"
+  ],
+  "keywords": [
+    "object",
+    "is",
+    "check",
+    "test",
+    "type",
+    "plain",
+    "vanilla",
+    "pure",
+    "simple",
+    "stackline",
+    "maintenance-fork"
+  ],
+  "devDependencies": {
+    "ava": "8.0.1",
+    "tsd": "0.33.0"
+  },
+  "bugs": {
+    "url": "https://github.com/alexandroit/stackline-is-plain-obj/issues"
+  },
+  "homepage": "https://github.com/alexandroit/stackline-is-plain-obj#readme",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
 }

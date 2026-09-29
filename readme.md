@@ -1,3 +1,19 @@
+# @stackline/is-plain-obj
+
+Independent maintenance fork of `is-plain-obj@4.1.0`. Original API, module format, runtime dependency ranges, and supported Node.js engines are preserved.
+
+```sh
+npm install @stackline/is-plain-obj
+# Preserve existing imports with an npm alias:
+npm install is-plain-obj@npm:@stackline/is-plain-obj@1.0.0
+```
+
+See [UPSTREAM.md](UPSTREAM.md) for the exact source and issue review, and [CHANGELOG.md](CHANGELOG.md) for focused maintenance changes. Development and release tooling runs on Node.js 24; that does not change the library runtime requirement.
+
+Maintained by [Stackline](https://alexandro.net/). [Issues](https://github.com/alexandroit/stackline-is-plain-obj/issues) · [npm](https://www.npmjs.com/package/@stackline/is-plain-obj).
+
+## Upstream documentation
+
 # is-plain-obj
 
 > Check if a value is a plain object
