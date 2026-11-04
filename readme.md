@@ -10,7 +10,7 @@
 
 **[Documentation](https://alexandro.net/docs/vanilla/is-plain-obj/)** | **[npm](https://www.npmjs.com/package/@stackline/is-plain-obj)** | **[Issues](https://github.com/alexandroit/stackline-is-plain-obj/issues)** | **[Repository](https://github.com/alexandroit/stackline-is-plain-obj)**
 
-**Current package version:** `1.0.2`
+**Current package version:** `1.0.3`
 
 ---
 
@@ -22,7 +22,7 @@
 
 | Item | Value |
 | :--- | :--- |
-| Package | `@stackline/is-plain-obj@1.0.2` |
+| Package | `@stackline/is-plain-obj@1.0.3` |
 | API target | `is-plain-obj@4.1.0` |
 | Supported Node.js | `>=12` |
 | License | `MIT` |
